@@ -1,0 +1,13 @@
+streamlit
+scipy
+tensorflow
+seaborn
+numpy
+fbprophet
+matplotlib
+pandas
+Pillow
+scikit_learn
+statsmodels
+timesynth
+pystan==2.19.1.1
