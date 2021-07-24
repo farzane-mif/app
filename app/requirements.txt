@@ -2,6 +2,7 @@ streamlit
 scipy
 tensorflow
 seaborn
+pystan==2.19.1.1
 numpy
 fbprophet
 matplotlib
@@ -10,4 +11,4 @@ Pillow
 scikit_learn
 statsmodels
 timesynth
-pystan==2.19.1.1
+
