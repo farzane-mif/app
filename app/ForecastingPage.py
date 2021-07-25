@@ -17,8 +17,8 @@ import sys
 module_path = os.path.abspath(os.path.join('../..'))
 if module_path not in sys.path:
     sys.path.append(module_path)
-from app.streamlit.SessionState import SessionState as session_state
-import app.streamlit.Util as util
+from SessionState import SessionState as session_state
+import Util as util
 
 
 KEY_FORECAST = "Forecast"
