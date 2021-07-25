@@ -9,8 +9,8 @@ import sys
 module_path = os.path.abspath(os.path.join('../..'))
 if module_path not in sys.path:
     sys.path.append(module_path)
-from app.streamlit.SessionState import SessionState as session_state
-import app.forecasting.data_generator as gen
+from SessionState import SessionState as session_state
+import forecasting.data_generator as gen
 
 
 # Creates and returns graph based on Timeseries data
